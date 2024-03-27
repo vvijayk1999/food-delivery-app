@@ -9,6 +9,10 @@ const swaggerDefinition = {
   },
   servers: [
     {
+      url: 'https://food-delivery-app-5fyj.onrender.com/',
+      description: 'Production server',
+    },
+    {
       url: 'http://localhost:3000/',
       description: 'Development server',
     },
