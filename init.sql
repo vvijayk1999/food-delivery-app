@@ -26,6 +26,8 @@ INSERT INTO organizations (name) VALUES
 ('Spice Route Express'),
 ('Tandoori Flames'),
 ('Curry House');
+('Sherlocks Pub Koramangala'),
+('Koramangala Social');
 
 INSERT INTO items (type, description) VALUES
 ('perishable', 'Chicken Tikka Masala'),
@@ -40,7 +42,7 @@ INSERT INTO items (type, description) VALUES
 ('non-perishable', 'Appalam');
 
 INSERT INTO pricings (organization_id, item_id, zone, base_distance_in_km, km_price, fix_price) VALUES
-(1, 1, 'central', 5, 1.5, 10),
+(5, 1, 'central', 5, 1.5, 10),
 (1, 2, 'central', 5, 2.00, 1300),
 (2, 3, 'east ', 3, 1.50, 1100),
 (3, 4, 'west ', 6, 2.25, 1600),
