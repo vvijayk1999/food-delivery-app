@@ -1,5 +1,7 @@
 # Food Delivery App
 
+**_NOTE:_**  The API is now live at [https://food-delivery-app-5fyj.onrender.com](https://food-delivery-app-5fyj.onrender.com)
+
 ## Description
 
 This food delivery app backend is designed to provide RESTful API endpoints for calculating dynamic delivery costs based on factors such as distance, item type, and delivery zone. It uses Node.js and PostgreSQL to offer scalable and efficient backend service.
